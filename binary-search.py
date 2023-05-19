@@ -33,8 +33,8 @@ def binarySearch(arr, x, low, high):
 
 
 # Let's pass an array and target value to binarySearch function
-arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-x = 4
+arr = [1, 5, 7, 10, 15, 20, 27, 38, 49, 100]
+x = 49
 
 # Function call
 result = binarySearch(arr, x, 0, len(arr) - 1)
