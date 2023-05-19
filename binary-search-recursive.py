@@ -5,7 +5,7 @@
 
 
 def binarySearch(arr, x, low, high):
-    # Check if two pointers points to the same index
+    # Check if the two pointers are pointing to the same index
 
     if high >= low:
         # Find the middle index of array by halving.
